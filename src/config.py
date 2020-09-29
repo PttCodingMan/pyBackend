@@ -1,8 +1,6 @@
-# try:
-#     from . import version
-# except ModuleNotFoundError:
-#     import version
+
+import version
 
 
-# class Config:
-#     Version = version.V
+class Config:
+    Version = version.V

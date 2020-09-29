@@ -7,7 +7,7 @@ class Student:
         filePath = pathlib.Path(__file__).parent.absolute()
         print('%s is %s' % ('this filePath', filePath))
 
-        yamlPath = str(filePath)+'/config/setting.yaml'
+        yamlPath = str(filePath) + '/config/setting.yaml'
 
         # with open(r'E:\data\fruits.yaml') as file:
         with open(yamlPath) as file:
@@ -20,6 +20,7 @@ if __name__ == '__main__':
     import pathlib
     import yaml
     import version
+
     # print("安安")
     s = Student()
     s.ReadYaml(3, 5)
